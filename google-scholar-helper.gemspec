@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Dmitrii Skrylev"]
   spec.email         = ["zivou4@gmail.com"]
 
-  spec.summary       = %q{A simple gem to show information for 1 user from google cholar page.}
+  spec.summary       = %q{A simple gem to show information for 1 user from google scholar page.}
   spec.description   = %q{TODO: Write a longer description or delete this line.}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
