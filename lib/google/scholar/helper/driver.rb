@@ -1,4 +1,5 @@
 require 'mechanize'
+require 'openssl'
 
 module Google
   module Scholar
@@ -6,12 +7,15 @@ module Google
       class Driver
         def initialize(url)
           @url = url
+          @cert_store = OpenSSL::X509::Store.new
+          @cert_store.add_file = 'lib/cert/cacert-2019-11-27.pem'
         end
 
         def goto
-          mechanize = Mechanize.new{ |a| a.ssl_version, a.verify_mode = OpenSSL::SSL::VERIFY_NONE }
+          mechanize = Mechanize.new
           mechanize.user_agent_alias = 'Mac Safari'
           mechanize.request_headers
+          mechanize.cert_store = @cert_store
 
           begin
             page = mechanize.get(@url)
