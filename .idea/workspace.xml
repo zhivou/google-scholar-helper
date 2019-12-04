@@ -5,6 +5,7 @@
       <change afterPath="$PROJECT_DIR$/lib/cert/cacert-2019-11-27.pem" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/google/scholar/helper/driver.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/google/scholar/helper/driver.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/google/scholar/helper/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/google/scholar/helper/version.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +81,7 @@
       <workItem from="1575487124757" duration="440000" />
       <workItem from="1575488053868" duration="324000" />
       <workItem from="1575493172989" duration="311000" />
-      <workItem from="1575494915713" duration="264000" />
+      <workItem from="1575494915713" duration="353000" />
     </task>
     <servers />
   </component>
@@ -101,6 +102,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/google_scholar_helper@driver.rcov" NAME="driver Coverage Results" MODIFIED="1575495165959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/google/scholar/helper" MODULE_NAME="google-scholar-helper" />
+    <SUITE FILE_PATH="coverage/google_scholar_helper@driver.rcov" NAME="driver Coverage Results" MODIFIED="1575495214764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/google/scholar/helper" MODULE_NAME="google-scholar-helper" />
   </component>
 </project>
