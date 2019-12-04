@@ -9,7 +9,18 @@ module Google
         end
 
         def goto
-          Mechanize.new.get(@url)
+          mechanize = Mechanize.new
+
+          begin
+            page = mechanize.get(@url)
+          rescue Mechanize::ResponseCodeError => exception
+            if exception.response_code == '403'
+              page = exception.page
+            else
+              raise
+            end
+          end
+          page
         end
       end
     end
