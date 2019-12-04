@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dbbc546e-5b83-455b-9b2d-68b829ede4a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cert/cacert-2019-11-27.pem" beforeDir="false" afterPath="$PROJECT_DIR$/lib/google/scholar/helper/cacert-2019-11-27.pem" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/google/scholar/helper/driver.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/google/scholar/helper/driver.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,6 +23,9 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/google/scholar/helper" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lib/cert" />
     </key>
@@ -82,7 +84,8 @@
       <workItem from="1575493172989" duration="311000" />
       <workItem from="1575494915713" duration="353000" />
       <workItem from="1575495952875" duration="53000" />
-      <workItem from="1575496487287" duration="487000" />
+      <workItem from="1575496487287" duration="774000" />
+      <workItem from="1575499226998" duration="306000" />
     </task>
     <servers />
   </component>
@@ -102,7 +105,21 @@
       </map>
     </option>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/lib/google/scholar/helper/driver.rb</url>
+          <line>13</line>
+          <properties a="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/google_scholar_helper@driver.rcov" NAME="driver Coverage Results" MODIFIED="1575497482315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/google/scholar/helper" MODULE_NAME="google-scholar-helper" />
+    <SUITE FILE_PATH="coverage/google_scholar_helper@driver.rcov" NAME="driver Coverage Results" MODIFIED="1575499621927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/google/scholar/helper" MODULE_NAME="google-scholar-helper" />
   </component>
 </project>
