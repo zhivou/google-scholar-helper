@@ -15,6 +15,7 @@ module Google
             page = mechanize.get(@url)
           rescue Mechanize::ResponseCodeError => exception
             if exception.response_code == '403'
+              puts "SCHOLAR WARNING: #{exception}"
               page = exception.page
             else
               raise
