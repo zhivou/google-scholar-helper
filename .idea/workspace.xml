@@ -4,6 +4,7 @@
     <list default="true" id="dbbc546e-5b83-455b-9b2d-68b829ede4a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/google/scholar/helper/driver.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/google/scholar/helper/driver.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/google/scholar/helper/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/google/scholar/helper/version.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +46,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575486327178</updated>
       <workItem from="1575486328578" duration="293000" />
-      <workItem from="1575487124757" duration="212000" />
+      <workItem from="1575487124757" duration="440000" />
     </task>
     <servers />
   </component>
