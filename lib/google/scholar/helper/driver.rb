@@ -1,4 +1,6 @@
 require 'mechanize'
+require 'open-uri'
+require 'nokogiri'
 
 module Google
   module Scholar
@@ -10,6 +12,7 @@ module Google
 
         def goto
           mechanize = Mechanize.new
+          puts(Nokogiri::HTML(open(@url)))
 
           begin
             page = mechanize.get(@url)
