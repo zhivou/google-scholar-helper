@@ -8,7 +8,7 @@ module Google
         def initialize(url)
           @url = url
           @cert_store = OpenSSL::X509::Store.new
-          @cert_store.add_file('lib/cert/cacert-2019-11-27.pem')
+          @cert_store.add_file('cacert-2019-11-27.pem')
         end
 
         def goto
