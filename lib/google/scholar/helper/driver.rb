@@ -9,7 +9,7 @@ module Google
         end
 
         def goto
-          mechanize = Mechanize.new{|a| a.ssl_version, a.verify_mode = 'SSLv3', OpenSSL::SSL::VERIFY_NONE}
+          mechanize = Mechanize.new{ |a| a.ssl_version, a.verify_mode = OpenSSL::SSL::VERIFY_NONE }
           mechanize.user_agent_alias = 'Mac Safari'
           mechanize.request_headers
 
