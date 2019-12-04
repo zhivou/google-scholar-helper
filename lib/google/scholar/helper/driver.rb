@@ -9,7 +9,8 @@ module Google
         end
 
         def goto
-          mechanize = Mechanize.new{|a| a.ssl_version, a.verify_mode = 'SSLv3', OpenSSL::SSL::VERIFY_NONE, a.user_agent_alias = 'Mac Safari'}
+          mechanize = Mechanize.new
+          mechanize.user_agent_alias = 'Mac Safari'
 
           begin
             page = mechanize.get(@url)
