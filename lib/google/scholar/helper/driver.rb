@@ -1,6 +1,4 @@
 require 'mechanize'
-require 'open-uri'
-require 'nokogiri'
 
 module Google
   module Scholar
@@ -11,8 +9,7 @@ module Google
         end
 
         def goto
-          mechanize = Mechanize.new
-          puts(Nokogiri::HTML(open(@url)))
+          mechanize = Mechanize.new{|a| a.ssl_version, a.verify_mode = 'SSLv3', OpenSSL::SSL::VERIFY_NONE, a.user_agent_alias = 'Mac Safari'}
 
           begin
             page = mechanize.get(@url)
