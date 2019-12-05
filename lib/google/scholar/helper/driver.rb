@@ -1,5 +1,5 @@
 require 'mechanize'
-require 'openssl'
+require 'nokogiri'
 
 module Google
   module Scholar
@@ -7,19 +7,11 @@ module Google
       class Driver
         def initialize(url)
           @url = url
-          @cert_store = OpenSSL::X509::Store.new
-          @cert_store.set_default_paths
-          @cert_store.add_file File.expand_path('./cacert-2019-11-27.pem')
         end
 
         def goto
           mechanize = Mechanize.new
-          mechanize.user_agent_alias = 'Mac Safari'
-          mechanize.request_headers
-          mechanize.cert_store = @cert_store
-          mechanize.ssl_version = 'SSLv3'
-          mechanize.verify_mode = OpenSSL::SSL::VERIFY_PEER
-          mechanize.agent.http.ca_file = File.expand_path('./cacert-2019-11-27.pem')
+          mechanize.user_agent_alias = 'Windows IE 11'
 
           begin
             page = mechanize.get(@url)
