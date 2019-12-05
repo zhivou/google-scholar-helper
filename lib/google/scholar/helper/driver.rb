@@ -1,5 +1,6 @@
 require 'mechanize'
 require 'nokogiri'
+require 'httparty'
 
 module Google
   module Scholar
@@ -20,8 +21,9 @@ module Google
             page = mechanize.get(@url)
           rescue Mechanize::ResponseCodeError => exception
             if exception.response_code == '403'
-              puts "SCHOLAR WARNING: #{exception}"
-              page = exception.page
+              puts "SCHOLAR WARNING: #{exception} Trying redirect with httparty"
+              redirect_url = HTTParty.get(@url).request.last_uri.to_s
+              page = mechanize.get(redirect_url)
             else
               raise
             end

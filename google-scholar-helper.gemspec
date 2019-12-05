@@ -28,6 +28,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "nokogiri", "~> 1.10", ">= 1.10.5"
   spec.add_dependency 'mechanize', '~> 2.7', '>= 2.7.6'
+  spec.add_dependency 'httparty', '~> 0.13.7'
 
   spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "rake", "~> 10.0"
