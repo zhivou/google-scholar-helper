@@ -11,7 +11,10 @@ module Google
 
         def goto
           mechanize = Mechanize.new
-          mechanize.user_agent_alias = 'Windows IE 11'
+          mechanize.user_agent_alias = 'Mac Safari'
+          mechanize.request_headers = { "Accept-Encoding" => "" }
+          mechanize.ignore_bad_chunking = true
+          mechanize.follow_meta_refresh = true
 
           begin
             page = mechanize.get(@url)
