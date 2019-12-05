@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbbc546e-5b83-455b-9b2d-68b829ede4a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/google/scholar/helper/driver.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/google/scholar/helper/driver.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/google/scholar/helper/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/google/scholar/helper/version.rb" afterDir="false" />
-    </list>
+    <list default="true" id="dbbc546e-5b83-455b-9b2d-68b829ede4a4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +32,18 @@
       <recent name="$PROJECT_DIR$/lib/cert" />
     </key>
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="RunManager">
     <configuration name="driver" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="google-scholar-helper" />
@@ -60,18 +68,6 @@
         <item itemvalue="Ruby.driver" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="false" RAKE_SPRING_PRE_LOADER_OPTION="false" RAILS_SPRING_PRE_LOADER_OPTION="false" />
   <component name="SvnConfiguration">
