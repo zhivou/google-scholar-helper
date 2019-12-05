@@ -7,10 +7,11 @@ module Google
                     :title,
                     :key_words,
                     :total_citations,
-                    :h_index
+                    :h_index,
+                    :i10_index
 
-        def initialize(url)
-          @page = Google::Scholar::Helper::Driver.new(url).goto
+        def initialize(url, proxy=nil)
+          @page = Google::Scholar::Helper::Driver.new(url, proxy).goto
           @publications = get_all_publications
           @title = get_title
           @key_words = get_key_words
