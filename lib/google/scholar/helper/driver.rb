@@ -1,5 +1,6 @@
 require 'nokogiri'
 require 'open-uri'
+require 'openssl'
 
 module Google
   module Scholar
@@ -10,7 +11,8 @@ module Google
         end
 
         def goto
-          Nokogiri::HTML(open(@url))
+          content = open(@url, ssl_verify_mode: OpenSSL::SSL::VERIFY_NONE, 'User-Agent' => 'firefox')
+          Nokogiri::HTML(content)
         end
       end
     end

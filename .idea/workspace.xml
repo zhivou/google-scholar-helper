@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dbbc546e-5b83-455b-9b2d-68b829ede4a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/google/scholar/helper/cacert-2019-11-27.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/google/scholar/helper/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/google/scholar/helper/version.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,6 +96,7 @@
       <workItem from="1575503438625" duration="796000" />
       <workItem from="1575505596472" duration="97000" />
       <workItem from="1575575076371" duration="227000" />
+      <workItem from="1575575306659" duration="31000" />
     </task>
     <servers />
   </component>
