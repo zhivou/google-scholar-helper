@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbbc546e-5b83-455b-9b2d-68b829ede4a4" name="Default Changelist" comment="" />
+    <list default="true" id="dbbc546e-5b83-455b-9b2d-68b829ede4a4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,6 +93,7 @@
       <workItem from="1575499226998" duration="306000" />
       <workItem from="1575503438625" duration="796000" />
       <workItem from="1575505596472" duration="97000" />
+      <workItem from="1575575076371" duration="227000" />
     </task>
     <servers />
   </component>
@@ -110,6 +114,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/google_scholar_helper@driver.rcov" NAME="driver Coverage Results" MODIFIED="1575499621927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/google/scholar/helper" MODULE_NAME="google-scholar-helper" />
+    <SUITE FILE_PATH="coverage/google_scholar_helper@driver.rcov" NAME="driver Coverage Results" MODIFIED="1575575183622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/google/scholar/helper" MODULE_NAME="google-scholar-helper" />
   </component>
 </project>
