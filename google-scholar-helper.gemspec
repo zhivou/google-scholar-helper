@@ -28,7 +28,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "nokogiri", "~> 1.10", ">= 1.10.5"
   spec.add_dependency 'mechanize', '~> 2.7', '>= 2.7.6'
-  spec.add_dependency 'faraday', '~> 0.9.2'
+  spec.add_dependency 'faraday'
 
   spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "rake", "~> 10.0"
