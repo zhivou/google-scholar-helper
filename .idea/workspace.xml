@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dbbc546e-5b83-455b-9b2d-68b829ede4a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/google/scholar/helper/base.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/google/scholar/helper/base.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/google-scholar-helper.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/google-scholar-helper.gemspec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/google/scholar/helper/driver.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/google/scholar/helper/driver.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/google/scholar/helper/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/google/scholar/helper/version.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,6 +100,13 @@
       <workItem from="1575576029598" duration="319000" />
       <workItem from="1575577193511" duration="722000" />
       <workItem from="1575579878920" duration="309000" />
+      <workItem from="1575580674210" duration="41000" />
+      <workItem from="1575580969359" duration="9000" />
+      <workItem from="1575581215696" duration="253000" />
+      <workItem from="1575581804846" duration="4000" />
+      <workItem from="1575581900150" duration="305000" />
+      <workItem from="1576097191924" duration="6000" />
+      <workItem from="1576097219685" duration="244000" />
     </task>
     <servers />
   </component>
@@ -121,6 +127,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/google_scholar_helper@driver.rcov" NAME="driver Coverage Results" MODIFIED="1575579319050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/google/scholar/helper" MODULE_NAME="google-scholar-helper" />
+    <SUITE FILE_PATH="coverage/google_scholar_helper@driver.rcov" NAME="driver Coverage Results" MODIFIED="1575582076442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/google/scholar/helper" MODULE_NAME="google-scholar-helper" />
   </component>
 </project>

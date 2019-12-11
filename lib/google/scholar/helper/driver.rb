@@ -1,6 +1,5 @@
 require 'nokogiri'
-require 'open-uri'
-require 'openssl'
+require 'faraday'
 
 module Google
   module Scholar
@@ -12,8 +11,7 @@ module Google
         end
 
         def goto
-          content = open(@url, ssl_verify_mode: OpenSSL::SSL::VERIFY_NONE, 'User-Agent' => 'firefox', proxy: @proxy) if @proxy
-          content = open(@url, ssl_verify_mode: OpenSSL::SSL::VERIFY_NONE, 'User-Agent' => 'firefox') unless @proxy
+          content = (Faraday.get(@url).body)
 
           Nokogiri::HTML(content)
         end
